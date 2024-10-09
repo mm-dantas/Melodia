@@ -1,0 +1,107 @@
+.depoimentos {
+    background-color: #f8f9fa;
+
+    h2 {
+        color: #343a40;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .depoimento-cartao {
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 2rem;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .icone {
+            color: #ffc107; /* Cor para os ícones */
+            font-size: 2.5rem;
+        }
+
+        blockquote {
+            font-style: italic;
+            color: #343a40;
+        }
+
+        .blockquote-footer {
+            color: #6c757d;
+        }
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: #212529;
+        border-radius: 50%;
+        padding: 1rem;
+    }
+}
+
+.depoimentos {
+    background-color: #f8f9fa;
+
+    h2 {
+        color: #343a40;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .depoimento-cartao {
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 2rem;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .icone {
+            color: #ffc107; /* Cor dos ícones */
+            font-size: 2.5rem;
+        }
+
+        blockquote {
+            font-style: italic;
+            color: #343a40;
+        }
+
+        .blockquote-footer {
+            color: #6c757d;
+        }
+
+        .avaliacao {
+            i {
+                color: #ffc107; /* Cor das estrelas */
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .carousel-indicators [data-bs-target] {
+        background-color: #212529;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: #212529;
+        border-radius: 50%;
+        padding: 1.5rem;
+
+    .meus-botoes {
+        left: -100px; 
+    }
+
+    .meus-botoes {
+        right: -100px; 
+    }
+    }
+}
+
