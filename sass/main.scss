@@ -91,3 +91,27 @@ h2.text-center {
         margin-top: 1.5rem;
     }
 }
+
+.qualidades{
+    padding: 100px
+  
+  }
+  
+  .section1 {
+    @extend.qualidades;
+    
+  }
+  
+  .section2 {
+    @extend.qualidades;
+  }
+  
+  .section3 {
+    @extend.qualidades;
+  }
+  
+  .section4 {
+    @extend.qualidades;
+  
+  }
+  
