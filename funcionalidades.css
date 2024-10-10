@@ -1,0 +1,39 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  background-color: #212529;
+  color: white;
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.card .card-text {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+}
+.card:hover .card-text {
+  display: block;
+}
+
+.icon {
+  font-size: 3rem;
+  color: #ffc107;
+}
+
+header {
+  background: linear-gradient(45deg, #212529, #343a40);
+}
+header h1 span {
+  color: #ffc107;
+}/*# sourceMappingURL=funcionalidades.css.map */

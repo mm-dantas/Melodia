@@ -1,0 +1,60 @@
+// Variáveis para cores
+$cor-fundo-body: #f8f9fa;
+$cor-fundo-card: #212529;
+$cor-texto-card: white;
+$cor-sombra-hover: rgba(0, 0, 0, 0.2);
+$cor-fundo-hover-texto: rgba(0, 0, 0, 0.8);
+$cor-icone: #ffc107;
+$inicio-gradiente-header: #212529;
+$fim-gradiente-header: #343a40;
+
+// Variáveis para tamanhos
+$altura-hover-card: -10px;
+$tamanho-icone: 3rem;
+$padding-texto: 10px;
+$duracao-transicao: 0.3s;
+$tipo-transicao: ease;
+
+body {
+    background-color: $cor-fundo-body;
+}
+
+.card {
+    background-color: $cor-fundo-card;
+    color: $cor-texto-card;
+    border: none;
+    transition: transform $duracao-transicao $tipo-transicao, box-shadow $duracao-transicao $tipo-transicao;
+    position: relative; // Para manter a posição do texto ao hover
+
+    &:hover {
+        transform: translateY($altura-hover-card); // O card sobe ao passar o mouse
+        box-shadow: 0 10px 20px $cor-sombra-hover; // Aparece uma sombra no hover
+    }
+
+    .card-text {
+        display: none; // O texto é oculto por padrão, pra evitar o bug do fundo preto ao passar o mouse
+        position: absolute; // Para posicionar o texto dentro do card, coloquei dessa maneira, com um fundo desbotado
+        bottom: 0; // Coloca o texto na parte inferior do card
+        left: 0;
+        right: 0;
+        background-color: $cor-fundo-hover-texto; 
+        padding: $padding-texto; 
+    }
+
+    &:hover .card-text {
+        display: block; // O texto é exibido somente quando o card é hover, pra evitar se der erro
+    }
+}
+
+.icon {
+    font-size: $tamanho-icone; // Defini o tamanho do ícone
+    color: $cor-icone;
+}
+
+header {
+    background: linear-gradient(45deg, $inicio-gradiente-header, $fim-gradiente-header); // Gradiente para o header
+
+    h1 span {
+        color: $cor-icone;
+    }
+}
