@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.link-opacidade {
+    transition: color 0.3s ease; 
+  }
+  
+.link-opacidade:hover {
+    color: #0000004f !important; 
+  }
+  
