@@ -23,4 +23,4 @@ O projeto consiste em uma landing page para o aplicativo de música **Melodia**,
 - **JavaScript**: Para animações e interações (opcional)
 
 ## Link Github Pages
-(https://mm-dantas.github.io/Melodia/)
+https://mm-dantas.github.io/Melodia/
